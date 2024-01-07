@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  width: 300px;
+  text-align: center;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 5px;
+}
+
+.grid {
+  width: 300px;
+  height: 300px;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  /* background-color: purple; */
+  background-image: url("images/fly.svg");
+  /* border-radius: 10px; */
+}
+
+.shooter {
+  background-image: url("images/frog.svg");
+  /* background-image: url("images/bomb.svg"); */
+}
+
+.laser {
+  background-image: url("images/bomb.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.boom {
+  width: 20px;
+  height: 20px;
+}
+
+.clear {
+  background-color: white;
+}
+
+.flies {
+  width: 20px;
+  height: 20px;
+}
